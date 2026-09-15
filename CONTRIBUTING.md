@@ -2,6 +2,52 @@
 
 Thanks for helping improve Roam Control. Contributions should preserve its narrow purpose: location-based development and testing on an iPhone the user owns and controls.
 
+## Licence and contributor agreement
+
+Roam Control is source available under the licence in `LICENSE`. It is not
+open-source software.
+
+The project licence permits private personal modification but does not grant
+general permission to redistribute Roam Control, modified versions, patches,
+diffs or independent releases.
+
+You may prepare modifications for submission to the official Roam Control
+project through its contribution process.
+
+Before a contribution can be accepted or incorporated into Roam Control, the
+contributor must read and sign [`CONTRIBUTOR_AGREEMENT.md`](Documentation/Licensing/CONTRIBUTOR_AGREEMENT.md).
+
+The contributor agreement assigns rights in accepted contributions to Sean
+Howarth while preserving appropriate contributor authorship credit. This
+allows Roam Control to continue to be modified, distributed and licensed as a
+single project without giving contributors ownership of the wider Roam Control
+codebase.
+
+Opening a pull request by itself does not constitute acceptance or signature
+of the contributor agreement. Completion of the contributor agreement is a
+prerequisite for acceptance, not a guarantee that a contribution will be accepted.
+
+## Contribution review and acceptance
+
+Signing the contributor agreement is a legal prerequisite for a contribution
+to be accepted. It does not mean that a pull request will be merged, reviewed
+within a particular timeframe, or included in a future release.
+
+All contributions remain subject to technical and product review. Roam Control
+prioritises stability, maintainability and consistency with the existing
+architecture and project roadmap. A contribution may therefore be declined
+even when it is well intentioned and works in isolation.
+
+In particular, a pull request may not be suitable if it introduces unnecessary
+complexity, increases maintenance or regression risk, conflicts with existing
+or planned work, changes behaviour outside its intended scope, or addresses
+functionality that is not currently a project priority.
+
+The project owner retains final discretion over whether, when and how changes
+are incorporated into Roam Control. Contributors should not assume acceptance
+from discussion, submission of a pull request, completion of the contributor
+agreement, or the amount of work invested in a contribution.
+
 ## Before opening a change
 
 - Search existing issues before creating a duplicate.
