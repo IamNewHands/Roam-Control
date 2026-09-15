@@ -1,3 +1,4 @@
+import CoreLocation
 import MapKit
 import Observation
 import SwiftUI
@@ -208,10 +209,10 @@ final class MapViewModel: NSObject, MKLocalSearchCompleterDelegate {
                 return
             }
 
-            let coordinate = item.location.coordinate
+            let coordinate = item.placemark.coordinate
             let target = LocationTarget(
                 name: item.name ?? searchQuery,
-                subtitle: placeDescription(for: item),
+                subtitle: placeDescription(for: item.placemark),
                 latitude: coordinate.latitude,
                 longitude: coordinate.longitude
             )
@@ -255,25 +256,16 @@ final class MapViewModel: NSObject, MKLocalSearchCompleterDelegate {
             )
         }
 
-        guard let request = MKReverseGeocodingRequest(
-            location: CLLocation(latitude: coordinate.latitude, longitude: coordinate.longitude)
-        ) else {
-            selectedLocation = LocationTarget(
-                name: fallbackName,
-                subtitle: fallbackDescription,
-                latitude: coordinate.latitude,
-                longitude: coordinate.longitude
-            )
-            return
-        }
+        let geocoder = CLGeocoder()
+        let location = CLLocation(latitude: coordinate.latitude, longitude: coordinate.longitude)
 
         do {
-            let items = try await request.mapItems
-            guard selectedLocation?.id == pendingTarget.id, let item = items.first else { return }
+            let placemarks = try await geocoder.reverseGeocodeLocation(location)
+            guard selectedLocation?.id == pendingTarget.id, let placemark = placemarks.first else { return }
 
             selectedLocation = LocationTarget(
-                name: item.name ?? fallbackName,
-                subtitle: placeDescription(for: item),
+                name: placemark.name ?? fallbackName,
+                subtitle: placeDescription(for: placemark),
                 latitude: coordinate.latitude,
                 longitude: coordinate.longitude
             )
@@ -346,22 +338,38 @@ final class MapViewModel: NSObject, MKLocalSearchCompleterDelegate {
         }
     }
 
-    private func placeDescription(for item: MKMapItem) -> String {
+    private func placeDescription(for placemark: CLPlacemark) -> String {
         let invisibleCharacters = CharacterSet.whitespacesAndNewlines.union(
             CharacterSet(charactersIn: "\u{200B}\u{200C}\u{200D}\u{FEFF}")
         )
-        let candidates = [
-            item.address?.shortAddress,
-            item.addressRepresentations?.cityWithContext,
-            item.address?.fullAddress
-        ]
-
-        for candidate in candidates {
-            let detail = candidate?.trimmingCharacters(in: invisibleCharacters) ?? ""
-            if !detail.isEmpty {
-                return detail
-            }
+        var addressParts: [String] = []
+        if let subThoroughfare = placemark.subThoroughfare, let thoroughfare = placemark.thoroughfare {
+            addressParts.append("\(subThoroughfare) \(thoroughfare)")
+        } else if let thoroughfare = placemark.thoroughfare {
+            addressParts.append(thoroughfare)
         }
+        if let subLocality = placemark.subLocality {
+            addressParts.append(subLocality)
+        }
+        if let locality = placemark.locality {
+            addressParts.append(locality)
+        }
+        if let administrativeArea = placemark.administrativeArea {
+            addressParts.append(administrativeArea)
+        }
+        if let country = placemark.country {
+            addressParts.append(country)
+        }
+
+        let detail = addressParts.joined(separator: ", ").trimmingCharacters(in: invisibleCharacters)
+        if !detail.isEmpty {
+            return detail
+        }
+
+        if let name = placemark.name?.trimmingCharacters(in: invisibleCharacters), !name.isEmpty {
+            return name
+        }
+
         return "Location details unavailable"
     }
 
