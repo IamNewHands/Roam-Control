@@ -24,14 +24,12 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
 
-      - name: Select Xcode 16
+      - name: Select Latest Xcode
         run: |
-          if [ -d "/Applications/Xcode_16.app" ]; then
-            sudo xcode-select -switch /Applications/Xcode_16.app/Contents/Developer
-          elif [ -d "/Applications/Xcode_16.1.app" ]; then
-            sudo xcode-select -switch /Applications/Xcode_16.1.app/Contents/Developer
-          elif [ -d "/Applications/Xcode_16.2.app" ]; then
-            sudo xcode-select -switch /Applications/Xcode_16.2.app/Contents/Developer
+          LATEST_XCODE=$(ls -d /Applications/Xcode_16*.app /Applications/Xcode_17*.app 2>/dev/null | sort -V | tail -n 1)
+          if [ -n "$LATEST_XCODE" ]; then
+            echo "Selecting $LATEST_XCODE"
+            sudo xcode-select -switch "$LATEST_XCODE/Contents/Developer"
           fi
           xcodebuild -version
 
