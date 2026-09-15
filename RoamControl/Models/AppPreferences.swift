@@ -39,3 +39,27 @@ enum MapDisplayStyle: String, CaseIterable, Identifiable {
         }
     }
 }
+
+enum AppLanguage: String, CaseIterable, Identifiable {
+    case system = "system"
+    case zhHans = "zh-Hans"
+    case en = "en"
+
+    var id: Self { self }
+
+    var title: String {
+        switch self {
+        case .system: "System"
+        case .zhHans: "简体中文"
+        case .en: "English"
+        }
+    }
+
+    var locale: Locale? {
+        switch self {
+        case .system: nil
+        case .zhHans: Locale(identifier: "zh-Hans")
+        case .en: Locale(identifier: "en")
+        }
+    }
+}

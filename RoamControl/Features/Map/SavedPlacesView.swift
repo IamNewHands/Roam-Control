@@ -186,7 +186,7 @@ struct SavedPlacesView: View {
         favouriteBeingRenamed = location
     }
 
-    private var clearConfirmationTitle: String {
+    private var clearConfirmationTitle: LocalizedStringKey {
         switch clearTarget {
         case .favourites: "Clear all favourites?"
         case .history: "Clear location history?"
@@ -194,7 +194,7 @@ struct SavedPlacesView: View {
         }
     }
 
-    private var clearConfirmationButton: String {
+    private var clearConfirmationButton: LocalizedStringKey {
         switch clearTarget {
         case .favourites: "Clear Favourites"
         case .history: "Clear History"
@@ -202,7 +202,7 @@ struct SavedPlacesView: View {
         }
     }
 
-    private var clearConfirmationMessage: String {
+    private var clearConfirmationMessage: LocalizedStringKey {
         switch clearTarget {
         case .favourites: "Every favourite will be removed. Your history will be kept."
         case .history: "Every recently used location will be removed. Your favourites will be kept."
@@ -275,7 +275,7 @@ private struct SavedPlaceRow: View {
 
 private struct EmptySavedPlacesRow: View {
     let symbol: String
-    let message: String
+    let message: LocalizedStringKey
 
     var body: some View {
         Label(message, systemImage: symbol)

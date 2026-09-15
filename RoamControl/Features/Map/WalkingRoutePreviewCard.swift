@@ -96,17 +96,18 @@ struct WalkingRoutePreviewCard: View {
         if dynamicTypeSize.isAccessibilitySize {
             Picker("Walking pace", selection: paceBinding) {
                 ForEach(WalkingPace.allCases) { pace in
-                    Text(pace.title).tag(pace)
+                    Text(LocalizedStringKey(pace.title)).tag(pace)
                 }
             }
             .pickerStyle(.menu)
         } else {
             Picker("Walking pace", selection: paceBinding) {
                 ForEach(WalkingPace.allCases) { pace in
-                    Text(pace.title).tag(pace)
+                    Text(LocalizedStringKey(pace.title)).tag(pace)
                 }
             }
             .pickerStyle(.segmented)
+            .labelsHidden()
         }
     }
 
@@ -359,7 +360,7 @@ struct WalkingRoutePreviewCard: View {
         }
     }
 
-    private var phaseTitle: String {
+    private var phaseTitle: LocalizedStringKey {
         switch simulation.phase {
         case .idle: "Walking route"
         case .preparing: "Preparing walk"
@@ -467,7 +468,7 @@ struct WalkingRoutePreviewCard: View {
 }
 
 private struct RouteMetric: View {
-    let title: String
+    let title: LocalizedStringKey
     let value: String
     let symbol: String
 

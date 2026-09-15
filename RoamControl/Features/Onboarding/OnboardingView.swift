@@ -116,7 +116,7 @@ struct OnboardingView: View {
         }
     }
 
-    private var finalButtonTitle: String {
+    private var finalButtonTitle: LocalizedStringKey {
         if !isLastPage { return "Continue" }
         return isReplay ? "Done" : "Set Up This iPhone"
     }
@@ -139,14 +139,11 @@ private struct OnboardingPageView: View {
                     Spacer(minLength: 20)
 
                     Image(systemName: page.symbol)
-                        .font(.system(
-                            size: dynamicTypeSize.isAccessibilitySize ? 46 : 64,
-                            weight: .semibold
-                        ))
+                        .font(.system(size: dynamicTypeSize.isAccessibilitySize ? 54 : 64, weight: .semibold))
                         .foregroundStyle(.white)
                         .frame(
-                            width: dynamicTypeSize.isAccessibilitySize ? 96 : 132,
-                            height: dynamicTypeSize.isAccessibilitySize ? 96 : 132
+                            width: dynamicTypeSize.isAccessibilitySize ? 104 : 124,
+                            height: dynamicTypeSize.isAccessibilitySize ? 104 : 124
                         )
                         .background(
                             LinearGradient(
@@ -219,15 +216,15 @@ private struct OnboardingPageView: View {
 
 private struct OnboardingPage {
     let symbol: String
-    let title: String
-    let message: String
+    let title: LocalizedStringKey
+    let message: LocalizedStringKey
     let colors: [Color]
     let showsUsageStatisticsControl: Bool
 
     init(
         symbol: String,
-        title: String,
-        message: String,
+        title: LocalizedStringKey,
+        message: LocalizedStringKey,
         colors: [Color],
         showsUsageStatisticsControl: Bool = false
     ) {

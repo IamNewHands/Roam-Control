@@ -1,0 +1,2896 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "About" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "关于"
+          }
+        }
+      }
+    },
+    "About Roam Control" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "关于 Roam Control"
+          }
+        }
+      }
+    },
+    "Active" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "已连接"
+          }
+        }
+      }
+    },
+    "Active location updated" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "活跃定位已更新"
+          }
+        }
+      }
+    },
+    "Add to favourites" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "添加到收藏"
+          }
+        }
+      }
+    },
+    "Added" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "添加时间"
+          }
+        }
+      }
+    },
+    "Anonymous Statistics" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "匿名使用统计"
+          }
+        }
+      }
+    },
+    "App opened or returned to foreground" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "应用打开或返回前台"
+          }
+        }
+      }
+    },
+    "App version and build" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "应用版本与构建号"
+          }
+        }
+      }
+    },
+    "Appearance" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "外观"
+          }
+        }
+      }
+    },
+    "Apple ID, device name or personal details" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Apple ID、设备名称或个人隐私信息"
+          }
+        }
+      }
+    },
+    "Approximate event time" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "事件发生的大致时间"
+          }
+        }
+      }
+    },
+    "Area" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "所属区域"
+          }
+        }
+      }
+    },
+    "Arrival" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "预计到达"
+          }
+        }
+      }
+    },
+    "Arrived" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "已到达目的地"
+          }
+        }
+      }
+    },
+    "Auto" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "跟随系统"
+          }
+        }
+      }
+    },
+    "Background session support, permission status and scheduler availability" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "后台会话支持、权限状态与调度器可用性"
+          }
+        }
+      }
+    },
+    "Before connecting" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "连接前准备"
+          }
+        }
+      }
+    },
+    "Brisk" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "快步"
+          }
+        }
+      }
+    },
+    "Build" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "构建号"
+          }
+        }
+      }
+    },
+    "Built" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "编译时间"
+          }
+        }
+      }
+    },
+    "Cancel" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "取消"
+          }
+        }
+      }
+    },
+    "Cancel Pairing" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "取消配对"
+          }
+        }
+      }
+    },
+    "Cancel Restoration" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "取消恢复"
+          }
+        }
+      }
+    },
+    "Check for Updates" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "检查更新"
+          }
+        }
+      }
+    },
+    "Checking" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "检测中…"
+          }
+        }
+      }
+    },
+    "Checking for updates…" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "正在检查更新…"
+          }
+        }
+      }
+    },
+    "Checking pairing file" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "正在校验配对文件"
+          }
+        }
+      }
+    },
+    "Checking this iPhone" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "正在检测本机"
+          }
+        }
+      }
+    },
+    "Checks the public GitHub release only when you tap it. Roam Control never sends location, pairing or diagnostic data with this request." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "仅在点击时请求 GitHub Release 公开版本信息。Roam Control 绝不会随此请求发送位置、配对或诊断数据。"
+          }
+        }
+      }
+    },
+    "Choose a location" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "选取目标位置"
+          }
+        }
+      }
+    },
+    "Choose New Destination" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "选取新目的地"
+          }
+        }
+      }
+    },
+    "Choose, test and move this iPhone’s reported location from one clean map." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "在简洁直观的地图上选取、测试并控制此 iPhone 的定位。"
+          }
+        }
+      }
+    },
+    "Clear" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "清空"
+          }
+        }
+      }
+    },
+    "Clear all favourites?" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "确定清空所有收藏？"
+          }
+        }
+      }
+    },
+    "Clear Favourites" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "清空收藏"
+          }
+        }
+      }
+    },
+    "Clear History" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "清空历史"
+          }
+        }
+      }
+    },
+    "Clear location history?" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "确定清空位置历史记录？"
+          }
+        }
+      }
+    },
+    "Clear saved places?" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "确定清空已保存的地点？"
+          }
+        }
+      }
+    },
+    "Clear search" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "清空搜索"
+          }
+        }
+      }
+    },
+    "Clear selected location" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "清除所选位置"
+          }
+        }
+      }
+    },
+    "Closing the local session and advertisement." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "正在关闭本地会话与广播。"
+          }
+        }
+      }
+    },
+    "Compass" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "指南针"
+          }
+        }
+      }
+    },
+    "Connected" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "已连接"
+          }
+        }
+      }
+    },
+    "Connecting" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "正在连接…"
+          }
+        }
+      }
+    },
+    "Connecting…" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "正在连接…"
+          }
+        }
+      }
+    },
+    "Connection Check" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "连接检测"
+          }
+        }
+      }
+    },
+    "Connection error" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "连接异常"
+          }
+        }
+      }
+    },
+    "Connection Health" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "连接健康诊断"
+          }
+        }
+      }
+    },
+    "Connection help, retry and retry success counts" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "连接指引、重试及重试成功次数"
+          }
+        }
+      }
+    },
+    "Connection status" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "连接状态"
+          }
+        }
+      }
+    },
+    "Connect your physical iPhone to create the pairing, or import an existing file." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "请在真机 iPhone 上完成配对，或导入已有的配对文件。"
+          }
+        }
+      }
+    },
+    "Continue" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "继续"
+          }
+        }
+      }
+    },
+    "Coordinates" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "经纬度坐标"
+          }
+        }
+      }
+    },
+    "Coordinates or place names" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "具体坐标或地点名称"
+          }
+        }
+      }
+    },
+    "Copy Diagnostics" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "复制诊断信息"
+          }
+        }
+      }
+    },
+    "Copy location" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "复制位置信息"
+          }
+        }
+      }
+    },
+    "Create the pairing securely on this iPhone, or import an existing file." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "在 iPhone 本机上安全建立配对，或导入现有文件。"
+          }
+        }
+      }
+    },
+    "Current location" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "当前真实位置"
+          }
+        }
+      }
+    },
+    "Current Location" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "当前模拟位置"
+          }
+        }
+      }
+    },
+    "Dark" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "深色"
+          }
+        }
+      }
+    },
+    "Delete" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "删除"
+          }
+        }
+      }
+    },
+    "Destination" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "目的地"
+          }
+        }
+      }
+    },
+    "Detecting this iPhone…" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "正在检测本机…"
+          }
+        }
+      }
+    },
+    "Device" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "设备"
+          }
+        }
+      }
+    },
+    "Device Setup" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "设备配对与设置"
+          }
+        }
+      }
+    },
+    "Diagnostics Copied" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "诊断信息已复制"
+          }
+        }
+      }
+    },
+    "Dismiss keyboard" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "收起键盘"
+          }
+        }
+      }
+    },
+    "Distance" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "总距离"
+          }
+        }
+      }
+    },
+    "Done" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "完成"
+          }
+        }
+      }
+    },
+    "Duration" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "预计用时"
+          }
+        }
+      }
+    },
+    "Edit" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "编辑"
+          }
+        }
+      }
+    },
+    "Ending walk" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "正在结束步行"
+          }
+        }
+      }
+    },
+    "English" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "English"
+          }
+        }
+      }
+    },
+    "Enter latitude from −90 to 90 and longitude from −180 to 180." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "请输入有效的经纬度：纬度范围 -90 至 90，经度范围 -180 至 180。"
+          }
+        }
+      }
+    },
+    "Enter this code in Settings" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "请在系统“设置”中输入此验证码"
+          }
+        }
+      }
+    },
+    "Every favourite will be removed. Your history will be kept." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "将清空所有已收藏地点，但会保留您的历史记录。"
+          }
+        }
+      }
+    },
+    "Every recently used location will be removed. Your favourites will be kept." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "将清空所有最近使用过的历史位置，但会保留您的收藏。"
+          }
+        }
+      }
+    },
+    "Favourite" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "收藏"
+          }
+        }
+      }
+    },
+    "Favourite name" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "收藏名称"
+          }
+        }
+      }
+    },
+    "Favourites" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "我的收藏"
+          }
+        }
+      }
+    },
+    "Favourites & history" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "收藏与历史"
+          }
+        }
+      }
+    },
+    "Favourites and history" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "收藏与历史"
+          }
+        }
+      }
+    },
+    "Feedback" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "意见与反馈"
+          }
+        }
+      }
+    },
+    "Finding This iPhone…" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "正在寻找此 iPhone…"
+          }
+        }
+      }
+    },
+    "Finding this iPhone" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "正在寻找本机"
+          }
+        }
+      }
+    },
+    "Finding the paired iPhone through the private local tunnel." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "正在通过私有本地隧道发现已配对的 iPhone。"
+          }
+        }
+      }
+    },
+    "Fingerprint" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "密钥指纹"
+          }
+        }
+      }
+    },
+    "Finish in Settings" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "在系统“设置”中完成配对"
+          }
+        }
+      }
+    },
+    "Finishing pairing" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "正在完成配对"
+          }
+        }
+      }
+    },
+    "Fixed failure stage, scheduler reason, operation and recovery category" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "固定故障阶段、调度原因、操作及恢复分类"
+          }
+        }
+      }
+    },
+    "Fixed or walking session started" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "定点或步行模拟会话启动"
+          }
+        }
+      }
+    },
+    "Fixed pairing and location task configuration and registration states on scheduler failures" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "调度失败时固定的配对/定位任务配置与注册状态"
+          }
+        }
+      }
+    },
+    "Full diagnostic reports" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "完整的系统底层诊断日志报告"
+          }
+        }
+      }
+    },
+    "Get LocalDevVPN" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "获取 LocalDevVPN"
+          }
+        }
+      }
+    },
+    "GitHub may ask you to choose Bug Report or Feature Request first. For pairing or connection problems, open Connection Health and use Copy Diagnostics. Do not include pairing records, credentials or private locations." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "前往 GitHub 提交 Bug 反馈或功能建议。若遇配对或连接问题，可在“连接健康诊断”中点击“复制诊断信息”。切勿随报告上传配对密钥凭据或私人敏感位置。"
+          }
+        }
+      }
+    },
+    "Give this saved place a name that is easy to recognise." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "为该地点设置一个易于辨识的名称。"
+          }
+        }
+      }
+    },
+    "Hashed random installation identifier" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "不可逆哈希处理的随机安装标识符"
+          }
+        }
+      }
+    },
+    "Help" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "帮助与支持"
+          }
+        }
+      }
+    },
+    "History" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "历史记录"
+          }
+        }
+      }
+    },
+    "How it works" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "使用指引"
+          }
+        }
+      }
+    },
+    "Hybrid" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "混合地图"
+          }
+        }
+      }
+    },
+    "I'm Using Mobile Data" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "我正在使用蜂窝移动数据"
+          }
+        }
+      }
+    },
+    "If you're on Wi‑Fi, make sure LocalDevVPN says Connected, then try again. Choose mobile data only when you're actually using 4G or 5G." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "若使用 Wi‑Fi 网络，请确保 LocalDevVPN 显示为“已连接”，然后重试。仅在实际使用 4G/5G 蜂窝网络时选择移动数据模式。"
+          }
+        }
+      }
+    },
+    "Import Existing File" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "导入已有配对文件"
+          }
+        }
+      }
+    },
+    "Importing" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "正在导入"
+          }
+        }
+      }
+    },
+    "Inactive" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "未激活"
+          }
+        }
+      }
+    },
+    "Install LocalDevVPN and switch it on." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "安装 LocalDevVPN 并开启本地隧道。"
+          }
+        }
+      }
+    },
+    "Interrupted-session recovery" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "中断会话恢复"
+          }
+        }
+      }
+    },
+    "Introduction completed" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "引导页已浏览完成"
+          }
+        }
+      }
+    },
+    "Keep Developer Mode enabled on the iPhone." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "保持 iPhone 的“开发者模式”处于开启状态。"
+          }
+        }
+      }
+    },
+    "Keep Recovery Options" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "保留恢复选项"
+          }
+        }
+      }
+    },
+    "Keep Roam Control open until this finishes." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "在此过程完成前，请保持 Roam Control 在前台运行。"
+          }
+        }
+      }
+    },
+    "Keep Roam Control open until the real location has been restored." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "在恢复真实定位完成前，请保持 Roam Control 开启。"
+          }
+        }
+      }
+    },
+    "Keep Simulated Location" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "继续保持模拟定位"
+          }
+        }
+      }
+    },
+    "Language" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "语言"
+          }
+        }
+      }
+    },
+    "Last active" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "最后活动时间"
+          }
+        }
+      }
+    },
+    "Last checked" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "上次检测时间"
+          }
+        }
+      }
+    },
+    "Last location" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "最后模拟位置"
+          }
+        }
+      }
+    },
+    "Last saved point" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "最后记录点"
+          }
+        }
+      }
+    },
+    "Light" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "浅色"
+          }
+        }
+      }
+    },
+    "LocalDevVPN" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "LocalDevVPN 本地隧道"
+          }
+        }
+      }
+    },
+    "Location Control" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "位置控制"
+          }
+        }
+      }
+    },
+    "Location control" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "位置控制"
+          }
+        }
+      }
+    },
+    "Location is active" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "定位已生效"
+          }
+        }
+      }
+    },
+    "Location Session" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "定位会话"
+          }
+        }
+      }
+    },
+    "Location session active" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "模拟定位进行中"
+          }
+        }
+      }
+    },
+    "Location Simulation Stopped" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "定位模拟已停止"
+          }
+        }
+      }
+    },
+    "Make sure LocalDevVPN is connected, switch mobile data off briefly, then return to Roam Control." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "请确保 LocalDevVPN 已连接，短暂关闭蜂窝移动数据，然后返回 Roam Control。"
+          }
+        }
+      }
+    },
+    "Map controls" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "地图功能"
+          }
+        }
+      }
+    },
+    "Map Style" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "地图样式"
+          }
+        }
+      }
+    },
+    "Mobile-data guidance" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "蜂窝网络引导"
+          }
+        }
+      }
+    },
+    "My Real Location Is Already Back" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "真实位置已正常，直接忽略"
+          }
+        }
+      }
+    },
+    "Never Shared" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "绝不收集与共享的数据"
+          }
+        }
+      }
+    },
+    "Normal" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "标准"
+          }
+        }
+      }
+    },
+    "Not checked" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "未检测"
+          }
+        }
+      }
+    },
+    "Not configured" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "未配置"
+          }
+        }
+      }
+    },
+    "Not paired" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "未配对"
+          }
+        }
+      }
+    },
+    "Not reachable" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "不可达"
+          }
+        }
+      }
+    },
+    "Off by default. Never includes locations, searches, routes, pairing data or personal information." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "默认关闭。绝不会包含位置、搜索、路线、配对数据或任何个人信息。"
+          }
+        }
+      }
+    },
+    "On-device pairing needs your physical iPhone." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "本机设备配对功能需要在实体 iPhone 上运行。"
+          }
+        }
+      }
+    },
+    "Open LocalDevVPN" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "打开 LocalDevVPN"
+          }
+        }
+      }
+    },
+    "Open LocalDevVPN in App Store" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "在 App Store 中查看 LocalDevVPN"
+          }
+        }
+      }
+    },
+    "Open Settings › Privacy & Security › Developer Mode." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "打开“设置” › “隐私与安全性” › “开发者模式”。"
+          }
+        }
+      }
+    },
+    "Opening LocalDevVPN" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "正在打开 LocalDevVPN"
+          }
+        }
+      }
+    },
+    "Opening LocalDevVPN…" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "正在打开 LocalDevVPN…"
+          }
+        }
+      }
+    },
+    "Opening the secure location session." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "正在建立安全定位会话。"
+          }
+        }
+      }
+    },
+    "Optional and off by default. Helps estimate activity from participating installations. Locations, searches and pairing data are never included." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "该功能默认关闭。开启后仅用于估算活跃安装量，绝不收集位置、搜索内容或配对数据。"
+          }
+        }
+      }
+    },
+    "Other VPNs" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "第三方 VPN 影响提示"
+          }
+        }
+      }
+    },
+    "Pair This iPhone" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "配对这台 iPhone"
+          }
+        }
+      }
+    },
+    "Pair this iPhone" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "配对这台 iPhone"
+          }
+        }
+      }
+    },
+    "Pair this iPhone before starting location control." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "在开始模拟定位前，请先完成本机配对。"
+          }
+        }
+      }
+    },
+    "Pair this iPhone here, or import its existing RPPairing file." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "在此处完成本机配对，或导入已有的 RPPairing 配对文件。"
+          }
+        }
+      }
+    },
+    "Pair this iPhone once" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "一次性完成本机配对"
+          }
+        }
+      }
+    },
+    "Pair this iPhone once." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "完成一次本机配对。"
+          }
+        }
+      }
+    },
+    "Pairing" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "设备配对"
+          }
+        }
+      }
+    },
+    "Pairing & Connection" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "配对与连接"
+          }
+        }
+      }
+    },
+    "Pairing code ready" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "配对验证码已生成"
+          }
+        }
+      }
+    },
+    "Pairing completed" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "配对已完成"
+          }
+        }
+      }
+    },
+    "Pairing file ready" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "配对文件就绪"
+          }
+        }
+      }
+    },
+    "Pairing problem" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "配对出现问题"
+          }
+        }
+      }
+    },
+    "Pairing records or PINs" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "配对证书、密钥或 PIN 验证码"
+          }
+        }
+      }
+    },
+    "Pairing required" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "需要先配对"
+          }
+        }
+      }
+    },
+    "Pause" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "暂停"
+          }
+        }
+      }
+    },
+    "Pause or Resume" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "暂停或继续"
+          }
+        }
+      }
+    },
+    "Pick any place" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "随心选取地点"
+          }
+        }
+      }
+    },
+    "Place" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "地点名称"
+          }
+        }
+      }
+    },
+    "Places you use will appear here." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "使用过的地点历史将显示在此处。"
+          }
+        }
+      }
+    },
+    "Planning Walking Route…" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "正在规划路线…"
+          }
+        }
+      }
+    },
+    "Preparing a secure pairing session…" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "正在建立安全配对通道…"
+          }
+        }
+      }
+    },
+    "Preparing pairing" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "正在准备配对"
+          }
+        }
+      }
+    },
+    "Preparing the route…" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "正在准备路线…"
+          }
+        }
+      }
+    },
+    "Preparing walk" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "准备步行中"
+          }
+        }
+      }
+    },
+    "Preview Walking Route" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "预览步行路线"
+          }
+        }
+      }
+    },
+    "Previous Session Interrupted" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "检测到上次会话意外中断"
+          }
+        }
+      }
+    },
+    "Privacy" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "隐私与安全"
+          }
+        }
+      }
+    },
+    "Private by design" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "隐私优先设计"
+          }
+        }
+      }
+    },
+    "Problem" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "异常"
+          }
+        }
+      }
+    },
+    "Raw error messages or credentials" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "未经处理的原始报错信息或凭证"
+          }
+        }
+      }
+    },
+    "Reachable" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "可正常连接"
+          }
+        }
+      }
+    },
+    "Ready" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "已就绪"
+          }
+        }
+      }
+    },
+    "Ready in Settings" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "等待系统设置完成"
+          }
+        }
+      }
+    },
+    "Relaxed" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "悠闲"
+          }
+        }
+      }
+    },
+    "Remove Favourite" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "取消收藏"
+          }
+        }
+      }
+    },
+    "Remove from favourites" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "从收藏中移除"
+          }
+        }
+      }
+    },
+    "Remove Pairing" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "移除配对"
+          }
+        }
+      }
+    },
+    "Remove this pairing record?" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "确定移除此配对记录？"
+          }
+        }
+      }
+    },
+    "Rename" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "重命名"
+          }
+        }
+      }
+    },
+    "Rename Favourite" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "重命名收藏"
+          }
+        }
+      }
+    },
+    "Replay Introduction" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "重播功能介绍"
+          }
+        }
+      }
+    },
+    "Report a Bug" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "反馈问题 (Bug Report)"
+          }
+        }
+      }
+    },
+    "Request a Feature" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "功能建议 (Feature Request)"
+          }
+        }
+      }
+    },
+    "Required before location control" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "开始控制定位前需先完成配对"
+          }
+        }
+      }
+    },
+    "Reset App" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "重置应用"
+          }
+        }
+      }
+    },
+    "Reset Roam Control" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "重置 Roam Control"
+          }
+        }
+      }
+    },
+    "Reset Roam Control?" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "确定重置 Roam Control？"
+          }
+        }
+      }
+    },
+    "Restoration" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "位置恢复状态"
+          }
+        }
+      }
+    },
+    "Restore Real Location" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "恢复真实位置"
+          }
+        }
+      }
+    },
+    "Restore this iPhone's real location?" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "确定恢复此 iPhone 的真实定位？"
+          }
+        }
+      }
+    },
+    "Restoring Real Location…" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "正在恢复真实位置…"
+          }
+        }
+      }
+    },
+    "Restoring reconnects only long enough to clear the simulated location. Nothing starts automatically. Keep Roam Control open until it finishes." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "恢复操作仅短暂连接以清除模拟定位，不会自动启动任何会话。请保持应用开启直至完成。"
+          }
+        }
+      }
+    },
+    "Restoring this iPhone's real location. Keep Roam Control open until this finishes." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "正在恢复真实定位。在此过程结束前请保持 Roam Control 在前台运行。"
+          }
+        }
+      }
+    },
+    "Restoring this iPhone's real location…" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "正在恢复此 iPhone 的真实定位…"
+          }
+        }
+      }
+    },
+    "Resume" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "继续"
+          }
+        }
+      }
+    },
+    "Resume Location" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "恢复定位模拟"
+          }
+        }
+      }
+    },
+    "Resume Walking" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "继续步行路线"
+          }
+        }
+      }
+    },
+    "Return map to north" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "重置地图方向朝北"
+          }
+        }
+      }
+    },
+    "Reverse Route" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "原路折返"
+          }
+        }
+      }
+    },
+    "Roam Control is controlling the session." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Roam Control 正在接管控制定位会话。"
+          }
+        }
+      }
+    },
+    "Roam Control is preparing the secure device session." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Roam Control 正在准备安全设备会话。"
+          }
+        }
+      }
+    },
+    "Roam Control is ready to control this iPhone's location." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Roam Control 已准备就绪，可随时控制定位。"
+          }
+        }
+      }
+    },
+    "Roam Control is visible to the iOS pairing screen." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Roam Control 已对系统配对界面可见。"
+          }
+        }
+      }
+    },
+    "Roam Control needs one private pairing before it can control location. We'll guide you through it next." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Roam Control 需要进行一次性配对以获得定位控制权限，我们将在下一步引导您完成。"
+          }
+        }
+      }
+    },
+    "Roam Control sends only a small, fixed set of anonymous activity counts when sharing is enabled." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "启用共享后，Roam Control 仅会发送少量的匿名统计计数。"
+          }
+        }
+      }
+    },
+    "Roam Control should continue automatically. If it doesn't, tap Continue." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Roam Control 通常会自动继续。如未自动跳转，请点击“继续”。"
+          }
+        }
+      }
+    },
+    "Roam Control will end the simulated location and restore this iPhone's real location." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Roam Control 将结束模拟定位并恢复此 iPhone 的真实定位。"
+          }
+        }
+      }
+    },
+    "Roam Control will end the simulated walk and restore your real location. Your route progress will be reset." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Roam Control 将结束模拟步行并恢复您的真实定位，路线进度将被重置。"
+          }
+        }
+      }
+    },
+    "Roam Control will need a new RPPairing file before it can connect again." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "移除后，下次连接需要重新配对或导入新的 RPPairing 文件。"
+          }
+        }
+      }
+    },
+    "Roam Control will reconnect only long enough to clear the simulated location. It will not start a new location or walking session." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Roam Control 仅会短暂重连以清除模拟位置，不会启动新的定位或步行会话。"
+          }
+        }
+      }
+    },
+    "Roam Control will return automatically after the tunnel starts." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "本地隧道启动后，Roam Control 将自动返回并继续。"
+          }
+        }
+      }
+    },
+    "Run Connection Check" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "运行连接健康检测"
+          }
+        }
+      }
+    },
+    "Satellite" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "卫星地图"
+          }
+        }
+      }
+    },
+    "Save" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "保存"
+          }
+        }
+      }
+    },
+    "Saved Places" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "已保存的地点"
+          }
+        }
+      }
+    },
+    "Search" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "搜索地点"
+          }
+        }
+      }
+    },
+    "Search for a destination or tap the map, then save it as your target." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "搜索目的地或轻点地图，将其选定为目标位置。"
+          }
+        }
+      }
+    },
+    "Search places or coordinates" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "搜索地点、地名或经纬度坐标"
+          }
+        }
+      }
+    },
+    "Search, choose or drop a location." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "搜索、点选或在地图上放置大头针。"
+          }
+        }
+      }
+    },
+    "Searches, favourites, history or routes" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "搜索记录、收藏地点、历史或步行路线"
+          }
+        }
+      }
+    },
+    "Securing the pairing record in Keychain…" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "正在将配对密钥安全存储至钥匙串…"
+          }
+        }
+      }
+    },
+    "Session" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "会话状态"
+          }
+        }
+      }
+    },
+    "Session active" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "会话进行中"
+          }
+        }
+      }
+    },
+    "Set up iPhone" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "配对 iPhone"
+          }
+        }
+      }
+    },
+    "Set Up This iPhone" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "开始配置这台 iPhone"
+          }
+        }
+      }
+    },
+    "Settings" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "设置"
+          }
+        }
+      }
+    },
+    "Shared" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "收集与共享的数据"
+          }
+        }
+      }
+    },
+    "Share Anonymous Usage Statistics" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "共享匿名使用统计"
+          }
+        }
+      }
+    },
+    "Show my current location" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "定位到我的真实位置"
+          }
+        }
+      }
+    },
+    "Standard" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "标准地图"
+          }
+        }
+      }
+    },
+    "Start a fixed location or preview a walking route." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "开启定点模拟或预览步行路线。"
+          }
+        }
+      }
+    },
+    "Start Location" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "开始模拟定位"
+          }
+        }
+      }
+    },
+    "Start Walking" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "开始步行模拟"
+          }
+        }
+      }
+    },
+    "Start when ready. Stop restores this iPhone's real location." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "就绪后即可开始。“停止并恢复”可还原真实定位。"
+          }
+        }
+      }
+    },
+    "Starting a private session on this iPhone." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "正在本机启动安全配对会话。"
+          }
+        }
+      }
+    },
+    "Starting Location…" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "正在启动定位…"
+          }
+        }
+      }
+    },
+    "Still Connecting" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "正在连接中"
+          }
+        }
+      }
+    },
+    "Stop & Restore" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "停止并恢复真实定位"
+          }
+        }
+      }
+    },
+    "Stop the simulated location and restore your real location?" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "确定停止模拟定位并恢复真实定位？"
+          }
+        }
+      }
+    },
+    "Stop walking and restore this iPhone's real location?" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "确定结束步行并恢复此 iPhone 的真实定位？"
+          }
+        }
+      }
+    },
+    "Stopping" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "正在停止"
+          }
+        }
+      }
+    },
+    "Stopping pairing" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "正在取消配对"
+          }
+        }
+      }
+    },
+    "Stopping pairing…" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "正在停止配对…"
+          }
+        }
+      }
+    },
+    "Storage and Control" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "数据存储与控制"
+          }
+        }
+      }
+    },
+    "Stored securely" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "安全存储保障"
+          }
+        }
+      }
+    },
+    "Support" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "技术支持"
+          }
+        }
+      }
+    },
+    "System" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "跟随系统"
+          }
+        }
+      }
+    },
+    "Tap Edit to rearrange favourites." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "点击“编辑”可拖动调整收藏顺序。"
+          }
+        }
+      }
+    },
+    "Tap the heart on any selected place to save it." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "轻点任意地点卡片上的爱心即可收藏。"
+          }
+        }
+      }
+    },
+    "Tap the map" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "轻点地图选点"
+          }
+        }
+      }
+    },
+    "The code is generated on this iPhone and expires with this pairing attempt." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "验证码在本机生成，本次配对尝试结束后将立即失效。"
+          }
+        }
+      }
+    },
+    "The destination remains active until you stop and restore your real location." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "到达目的地后定位将持续保持，直到您主动点击停止并恢复真实位置。"
+          }
+        }
+      }
+    },
+    "The handshake worked. Saving its keys securely." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "配对握手成功，正在安全保存密钥。"
+          }
+        }
+      }
+    },
+    "The paired device is available." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "已配对的设备当前可用。"
+          }
+        }
+      }
+    },
+    "The pairing record is generated or checked on this iPhone, then stored only in its Keychain. Roam Control does not upload it." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "配对记录仅在本机生成并储存在 iOS 钥匙串（Keychain）中，Roam Control 绝不上传任何凭据。"
+          }
+        }
+      }
+    },
+    "The secure location session is ready. You can restore mobile data now; spoofing will continue over 5G." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "安全定位会话已就绪。您现在可以重新开启蜂窝网络，模拟定位将持续在 5G/4G 下运行。"
+          }
+        }
+      }
+    },
+    "Theme" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "主题模式"
+          }
+        }
+      }
+    },
+    "This clears the pairing record and local app settings, then shows onboarding again. It does not remove or change LocalDevVPN." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "重置将清除配对记录与本地应用偏好，并重置至欢迎页面。这不会删除或修改 LocalDevVPN 应用程序。"
+          }
+        }
+      }
+    },
+    "Try Again" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "重试"
+          }
+        }
+      }
+    },
+    "Turn Mobile Data Back On" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "重新开启蜂窝网络"
+          }
+        }
+      }
+    },
+    "Turn Mobile Data Off" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "暂时关闭蜂窝网络"
+          }
+        }
+      }
+    },
+    "Update Location" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "更新定位"
+          }
+        }
+      }
+    },
+    "Updates" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "检查更新"
+          }
+        }
+      }
+    },
+    "Use the code shown here when iOS asks for it." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "当 iOS 弹出配对请求时，输入此处显示的验证码。"
+          }
+        }
+      }
+    },
+    "Version" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "版本"
+          }
+        }
+      }
+    },
+    "View LocalDevVPN" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "查看 LocalDevVPN"
+          }
+        }
+      }
+    },
+    "Waiting for a fresh location from this iPhone. Other apps may also take time to update…" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "正在等待 iPhone 获取最新的真实 GPS 位置，其他应用可能也需要几秒更新…"
+          }
+        }
+      }
+    },
+    "Walking" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "正在步行模拟"
+          }
+        }
+      }
+    },
+    "Walking pace" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "步行速度"
+          }
+        }
+      }
+    },
+    "Walking route" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "步行路线"
+          }
+        }
+      }
+    },
+    "Walking routes" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "步行路线模拟"
+          }
+        }
+      }
+    },
+    "Walking unavailable" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "步行模拟不可用"
+          }
+        }
+      }
+    },
+    "Walk paused" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "步行已暂停"
+          }
+        }
+      }
+    },
+    "Welcome to Roam Control" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "欢迎使用 Roam Control"
+          }
+        }
+      }
+    },
+    "What Is Shared" : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "数据收集说明"
+          }
+        }
+      }
+    },
+    "Your pairing record and local choices will be removed. You will return to the welcome screen." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "您的配对记录与本地设置将被清除，并返回欢迎引导界面。"
+          }
+        }
+      }
+    },
+    "Your spoofed location is being held here until you resume." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "模拟位置将驻留在当前点，直到您点击继续。"
+          }
+        }
+      }
+    },
+    "Tap Pair with Roam Control." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "轻点“与 Roam Control 配对”。"
+          }
+        }
+      }
+    },
+    "Choose where your iPhone should appear, from one simple map." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "在简洁直观的地图上自由选定 iPhone 的虚拟位置。"
+          }
+        }
+      }
+    },
+    "Choose whether to help improve Roam Control with anonymous activity counts. Sharing starts only if you switch it on and can be changed later in Settings." : {
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "选择是否通过匿名活跃度统计帮助改进 Roam Control。仅在您主动开启时才会共享，且随时可在“设置”中关闭。"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

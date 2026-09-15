@@ -1,0 +1,69 @@
+name: Sync Upstream & Auto Build
+
+on:
+  schedule:
+    # 每天北京时间凌晨 03:00 (UTC 19:00) 自动检查上游更新
+    - cron: '0 19 * * *'
+  workflow_dispatch: # 支持随时在网页端一键手动触发
+
+permissions:
+  contents: write
+  actions: write
+
+jobs:
+  sync:
+    name: Sync Upstream Changes
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Configure Git User
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Check Upstream Changes
+        id: check_upstream
+        run: |
+          git remote add upstream https://github.com/seanhowarthdev/Roam-Control.git || true
+          git fetch upstream main
+
+          CURRENT_HEAD=$(git rev-parse HEAD)
+          UPSTREAM_HEAD=$(git rev-parse upstream/main)
+
+          echo "Current HEAD: ${CURRENT_HEAD}"
+          echo "Upstream HEAD: ${UPSTREAM_HEAD}"
+
+          # 检查上游 HEAD 是否已存在于本地历史中
+          if git merge-base --is-ancestor upstream/main HEAD; then
+            echo "Already up to date with upstream/main."
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+          else
+            echo "New commits detected in upstream/main."
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Merge Upstream Changes
+        if: steps.check_upstream.outputs.has_changes == 'true'
+        run: |
+          echo "Merging upstream/main into current branch..."
+          git merge upstream/main -m "chore(sync): merge upstream changes from seanhowarthdev/Roam-Control"
+          git push origin HEAD
+
+      - name: Trigger IPA Build
+        if: steps.check_upstream.outputs.has_changes == 'true'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            console.log('Triggering build-ipa.yml workflow...');
+            await github.rest.actions.createWorkflowDispatch({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              workflow_id: 'build-ipa.yml',
+              ref: context.ref
+            });
+            console.log('Successfully triggered build-ipa.yml.');

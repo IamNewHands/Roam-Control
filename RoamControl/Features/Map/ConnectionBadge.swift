@@ -25,7 +25,7 @@ struct ConnectionBadge: View {
         .accessibilityLabel("Connection status: \(label)")
     }
 
-    private var label: String {
+    private var label: LocalizedStringKey {
         switch state {
         case .notConfigured: "Set up iPhone"
         case .ready: "Ready"

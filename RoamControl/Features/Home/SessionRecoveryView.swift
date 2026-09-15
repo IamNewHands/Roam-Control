@@ -173,11 +173,11 @@ struct SessionRecoveryView: View {
         return "Roam Control closed before it could confirm that the simulated location at \(recovery.lastReportedLocation.name) ended. Choose what this iPhone should do next."
     }
 
-    private var resumeTitle: String {
+    private var resumeTitle: LocalizedStringKey {
         recovery.isWalkingRoute ? "Resume Walking" : "Resume Location"
     }
 
-    private func recoveryDetail(title: String, value: String, symbol: String) -> some View {
+    private func recoveryDetail(title: LocalizedStringKey, value: String, symbol: String) -> some View {
         Group {
             if dynamicTypeSize.isAccessibilitySize {
                 HStack(alignment: .top, spacing: 11) {

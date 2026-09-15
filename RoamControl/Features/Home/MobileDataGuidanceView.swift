@@ -135,7 +135,7 @@ struct MobileDataGuidanceView: View {
         }
     }
 
-    private var title: String {
+    private var title: LocalizedStringKey {
         switch guidance {
         case .connectionHelp:
             "Still Connecting"
@@ -146,7 +146,7 @@ struct MobileDataGuidanceView: View {
         }
     }
 
-    private var message: String {
+    private var message: LocalizedStringKey {
         switch guidance {
         case .connectionHelp:
             "If you're on Wi‑Fi, make sure LocalDevVPN says Connected, then try again. Choose mobile data only when you're actually using 4G or 5G."

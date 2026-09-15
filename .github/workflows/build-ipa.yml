@@ -1,0 +1,103 @@
+name: Build Roam Control IPA
+
+on:
+  workflow_dispatch:
+    inputs:
+      release_title:
+        description: 'Optional Release Title (leave blank for default)'
+        required: false
+        type: string
+  push:
+    tags:
+      - 'v*'
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    name: Build Unsigned IPA
+    runs-on: macos-15
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Select Xcode 16
+        run: |
+          if [ -d "/Applications/Xcode_16.app" ]; then
+            sudo xcode-select -switch /Applications/Xcode_16.app/Contents/Developer
+          elif [ -d "/Applications/Xcode_16.1.app" ]; then
+            sudo xcode-select -switch /Applications/Xcode_16.1.app/Contents/Developer
+          elif [ -d "/Applications/Xcode_16.2.app" ]; then
+            sudo xcode-select -switch /Applications/Xcode_16.2.app/Contents/Developer
+          fi
+          xcodebuild -version
+
+      - name: Build Roam Control (Release, Unsigned)
+        run: |
+          set -euo pipefail
+          TIMESTAMP=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
+
+          xcodebuild clean build \
+            -project RoamControl.xcodeproj \
+            -scheme RoamControl \
+            -configuration Release \
+            -sdk iphoneos \
+            -derivedDataPath build \
+            IPHONEOS_DEPLOYMENT_TARGET=17.0 \
+            CODE_SIGN_IDENTITY="" \
+            CODE_SIGNING_REQUIRED=NO \
+            CODE_SIGNING_ALLOWED=NO \
+            ROAMCONTROL_BUILD_TIMESTAMP="${TIMESTAMP}"
+
+      - name: Package IPA
+        run: |
+          set -euo pipefail
+          APP_PATH="build/Build/Products/Release-iphoneos/RoamControl.app"
+          
+          if [ ! -d "${APP_PATH}" ]; then
+            echo "Error: RoamControl.app not found at ${APP_PATH}"
+            exit 1
+          fi
+
+          mkdir -p Payload
+          cp -r "${APP_PATH}" Payload/
+          find Payload -name ".DS_Store" -delete
+
+          VERSION="0.9.2"
+          BUILD="latest"
+          if [ -f "${APP_PATH}/Info.plist" ]; then
+            VERSION=$(/usr/libexec/PlistBuddy -c "Print :CFBundleShortVersionString" "${APP_PATH}/Info.plist" 2>/dev/null || echo "0.9.2")
+            BUILD=$(/usr/libexec/PlistBuddy -c "Print :CFBundleVersion" "${APP_PATH}/Info.plist" 2>/dev/null || echo "latest")
+          fi
+
+          IPA_NAME="RoamControl-${VERSION}-build${BUILD}-unsigned.ipa"
+          zip -r -q "${IPA_NAME}" Payload
+          shasum -a 256 "${IPA_NAME}" > "${IPA_NAME}.sha256"
+
+          echo "IPA_NAME=${IPA_NAME}" >> $GITHUB_ENV
+          echo "======================================"
+          echo "IPA Created: ${IPA_NAME}"
+          echo "SHA256: $(cat ${IPA_NAME}.sha256)"
+          echo "======================================"
+
+      - name: Upload IPA Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ env.IPA_NAME }}
+          path: |
+            ${{ env.IPA_NAME }}
+            ${{ env.IPA_NAME }}.sha256
+          retention-days: 30
+
+      - name: Publish GitHub Release (On Tag)
+        if: startsWith(github.ref, 'refs/tags/')
+        uses: softprops/action-gh-release@v2
+        with:
+          name: ${{ inputs.release_title || github.ref_name }}
+          files: |
+            ${{ env.IPA_NAME }}
+            ${{ env.IPA_NAME }}.sha256
+          generate_release_notes: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
