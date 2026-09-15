@@ -372,7 +372,7 @@ struct WalkingRoutePreviewCard: View {
         }
     }
 
-    private var phaseSubtitle: String {
+    private var phaseSubtitle: LocalizedStringKey {
         switch simulation.phase {
         case .idle, .preparing, .failed:
             "Current Location to \(destination.name)"
