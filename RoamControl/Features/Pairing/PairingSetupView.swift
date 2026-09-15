@@ -237,7 +237,7 @@ struct PairingSetupView: View {
             .background(.background, in: RoundedRectangle(cornerRadius: 20, style: .continuous))
     }
 
-    private func requirementRow(number: String, text: String) -> some View {
+    private func requirementRow(number: String, text: LocalizedStringKey) -> some View {
         HStack(alignment: .top, spacing: 12) {
             Text(number)
                 .font(.caption.bold())
@@ -250,11 +250,9 @@ struct PairingSetupView: View {
                 .padding(.top, 2)
                 .fixedSize(horizontal: false, vertical: true)
         }
-        .accessibilityElement(children: .ignore)
-        .accessibilityLabel("Step \(number). \(text)")
     }
 
-    private func instructionRow(_ text: String) -> some View {
+    private func instructionRow(_ text: LocalizedStringKey) -> some View {
         HStack(alignment: .top, spacing: 8) {
             Image(systemName: "chevron.right")
                 .font(.caption.bold())
@@ -264,12 +262,10 @@ struct PairingSetupView: View {
                 .font(.subheadline)
                 .fixedSize(horizontal: false, vertical: true)
         }
-        .accessibilityElement(children: .ignore)
-        .accessibilityLabel(text)
     }
 
     private func pairingDetail(
-        title: String,
+        title: LocalizedStringKey,
         value: String,
         monospaced: Bool = false
     ) -> some View {
@@ -289,8 +285,6 @@ struct PairingSetupView: View {
                     .font(monospaced ? .caption.monospaced() : .caption)
             }
         }
-        .accessibilityElement(children: .ignore)
-        .accessibilityLabel("\(title), \(value)")
     }
 
     private var allowedPairingTypes: [UTType] {
@@ -343,7 +337,7 @@ struct PairingSetupView: View {
         }
     }
 
-    private var statusTitle: String {
+    private var statusTitle: LocalizedStringKey {
         switch appModel.onDevicePairing.phase {
         case .preparing: return "Preparing pairing"
         case .waitingForSettings: return "Ready in Settings"
@@ -363,7 +357,7 @@ struct PairingSetupView: View {
         }
     }
 
-    private var statusMessage: String {
+    private var statusMessage: LocalizedStringKey {
         switch appModel.onDevicePairing.phase {
         case .preparing:
             return "Starting a private session on this iPhone."
@@ -376,7 +370,7 @@ struct PairingSetupView: View {
         case .cancelling:
             return "Closing the local session and advertisement."
         case .failed(let message):
-            return message
+            return LocalizedStringKey(message)
         case .idle, .success:
             break
         }
@@ -393,7 +387,7 @@ struct PairingSetupView: View {
         case .paired:
             return "Roam Control can use this record when the LocalDevVPN session layer is connected."
         case .failed(let message):
-            return message
+            return LocalizedStringKey(message)
         }
     }
 }

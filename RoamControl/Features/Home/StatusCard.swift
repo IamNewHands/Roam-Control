@@ -20,7 +20,7 @@ struct StatusCard: View {
         .accessibilityElement(children: .combine)
     }
 
-    private var title: String {
+    private var title: LocalizedStringKey {
         switch state {
         case .notConfigured: "Not configured"
         case .ready: "Ready"
@@ -30,13 +30,13 @@ struct StatusCard: View {
         }
     }
 
-    private var detail: String {
+    private var detail: LocalizedStringKey {
         switch state {
         case .notConfigured: "Pairing support has not been added yet."
         case .ready: "The paired device is available."
         case .connecting: "Roam Control is preparing the secure device session."
         case .active: "Roam Control is controlling the session."
-        case .failed(let message): message
+        case .failed(let message): LocalizedStringKey(message)
         }
     }
 

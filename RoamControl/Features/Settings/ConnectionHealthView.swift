@@ -141,7 +141,7 @@ struct ConnectionHealthView: View {
         return String(format: "%.5f, %.5f", activeTarget.latitude, activeTarget.longitude)
     }
 
-    private var pairingValue: String {
+    private var pairingValue: LocalizedStringKey {
         switch appModel.pairingStatus {
         case .checking: "Checking"
         case .importing: "Importing"
@@ -169,7 +169,7 @@ struct ConnectionHealthView: View {
         }
     }
 
-    private var localDevVPNValue: String {
+    private var localDevVPNValue: LocalizedStringKey {
         switch diagnostics.state {
         case .notRun:
             if case .active = appModel.deviceSession.phase { return "Connected" }
@@ -202,7 +202,7 @@ struct ConnectionHealthView: View {
         }
     }
 
-    private var sessionValue: String {
+    private var sessionValue: LocalizedStringKey {
         switch appModel.deviceSession.phase {
         case .idle: "Inactive"
         case .openingLocalDevVPN: "Opening LocalDevVPN"
@@ -233,10 +233,10 @@ struct ConnectionHealthView: View {
         }
     }
 
-    private var resultMessage: String? {
+    private var resultMessage: LocalizedStringKey? {
         switch diagnostics.state {
         case .notRun, .running: nil
-        case .passed(let message), .failed(let message): message
+        case .passed(let message), .failed(let message): LocalizedStringKey(message)
         }
     }
 
@@ -257,8 +257,8 @@ struct ConnectionHealthView: View {
     }
 
     private func healthRow(
-        title: String,
-        value: String,
+        title: LocalizedStringKey,
+        value: LocalizedStringKey,
         symbol: String,
         color: Color
     ) -> some View {
@@ -287,8 +287,6 @@ struct ConnectionHealthView: View {
                 }
             }
         }
-        .accessibilityElement(children: .ignore)
-        .accessibilityLabel("\(title), \(value)")
     }
 
     @MainActor

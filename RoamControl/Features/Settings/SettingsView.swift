@@ -22,6 +22,14 @@ struct SettingsView: View {
             Form {
                 Section("Appearance") {
                     VStack(alignment: .leading, spacing: 10) {
+                        Text("Language")
+                            .font(.subheadline.weight(.medium))
+
+                        languagePicker
+                    }
+                    .padding(.vertical, 4)
+
+                    VStack(alignment: .leading, spacing: 10) {
                         Text("Theme")
                             .font(.subheadline.weight(.medium))
 
@@ -186,11 +194,38 @@ struct SettingsView: View {
         }
     }
 
+    private var languageBinding: Binding<AppLanguage> {
+        Binding(
+            get: { appModel.appLanguage },
+            set: appModel.setAppLanguage
+        )
+    }
+
     private var appearanceBinding: Binding<AppAppearance> {
         Binding(
             get: { appModel.appearance },
             set: appModel.setAppearance
         )
+    }
+
+    @ViewBuilder
+    private var languagePicker: some View {
+        if dynamicTypeSize.isAccessibilitySize {
+            Picker("Language", selection: languageBinding) {
+                ForEach(AppLanguage.allCases) { language in
+                    Text(LocalizedStringKey(language.title)).tag(language)
+                }
+            }
+            .pickerStyle(.menu)
+        } else {
+            Picker("Language", selection: languageBinding) {
+                ForEach(AppLanguage.allCases) { language in
+                    Text(LocalizedStringKey(language.title)).tag(language)
+                }
+            }
+            .pickerStyle(.segmented)
+            .labelsHidden()
+        }
     }
 
     @ViewBuilder

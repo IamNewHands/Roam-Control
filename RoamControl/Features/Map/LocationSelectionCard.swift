@@ -279,7 +279,7 @@ struct LocationSelectionCard: View {
         return message.localizedCaseInsensitiveContains("Install LocalDevVPN")
     }
 
-    private var primaryTitle: String {
+    private var primaryTitle: LocalizedStringKey {
         switch sessionPhase {
         case .openingLocalDevVPN:
             "Opening LocalDevVPN…"
@@ -329,7 +329,7 @@ struct LocationSelectionCard: View {
         }
     }
 
-    private var statusMessage: String {
+    private var statusMessage: LocalizedStringKey {
         switch sessionPhase {
         case .idle:
             return isPaired
@@ -349,7 +349,7 @@ struct LocationSelectionCard: View {
         case .stopping:
             return "Restoring this iPhone's real location. Keep Roam Control open until this finishes."
         case .failed(let message):
-            return message
+            return LocalizedStringKey(message)
         }
     }
 

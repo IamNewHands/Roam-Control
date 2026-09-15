@@ -59,7 +59,7 @@ struct UsageStatisticsPrivacyView: View {
         .navigationBarTitleDisplayMode(.inline)
     }
 
-    private func privacyRow(_ title: String, symbol: String) -> some View {
+    private func privacyRow(_ title: LocalizedStringKey, symbol: String) -> some View {
         Label(title, systemImage: symbol)
     }
 }

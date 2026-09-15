@@ -194,7 +194,7 @@ struct AboutRoamControlView: View {
         }
     }
 
-    private func stepRow(_ number: Int, _ text: String) -> some View {
+    private func stepRow(_ number: Int, _ text: LocalizedStringKey) -> some View {
         HStack(spacing: 12) {
             Text("\(number)")
                 .font(.caption.bold())
@@ -206,11 +206,9 @@ struct AboutRoamControlView: View {
                 .font(.subheadline)
         }
         .padding(.vertical, 2)
-        .accessibilityElement(children: .ignore)
-        .accessibilityLabel("Step \(number). \(text)")
     }
 
-    private func guideRow(_ title: String, symbol: String, text: String) -> some View {
+    private func guideRow(_ title: LocalizedStringKey, symbol: String, text: LocalizedStringKey) -> some View {
         HStack(alignment: .top, spacing: 12) {
             Image(systemName: symbol)
                 .font(.body.weight(.semibold))
@@ -229,8 +227,6 @@ struct AboutRoamControlView: View {
             }
         }
         .padding(.vertical, 3)
-        .accessibilityElement(children: .ignore)
-        .accessibilityLabel("\(title). \(text)")
     }
 }
 

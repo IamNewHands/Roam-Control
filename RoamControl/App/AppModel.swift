@@ -10,6 +10,7 @@ final class AppModel {
     private static let historyKey = "locationHistory"
     private static let appearanceKey = "appAppearance"
     private static let mapDisplayStyleKey = "mapDisplayStyle"
+    private static let appLanguageKey = "appLanguage"
     private static let activeSessionRecoveryKey = "activeSessionRecovery"
     private static let anonymousUsageStatisticsKey = "sharesAnonymousUsageStatistics"
 
@@ -25,7 +26,12 @@ final class AppModel {
     private(set) var locationHistory: [LocationTarget]
     private(set) var appearance: AppAppearance
     private(set) var mapDisplayStyle: MapDisplayStyle
+    private(set) var appLanguage: AppLanguage
     private(set) var sharesAnonymousUsageStatistics: Bool
+
+    var appLocale: Locale? {
+        appLanguage.locale
+    }
     private(set) var interruptedSession: SessionRecoveryRecord?
     private(set) var isRestoringInterruptedSession = false
     private(set) var interruptedSessionError: String?
@@ -63,6 +69,9 @@ final class AppModel {
         self.mapDisplayStyle = MapDisplayStyle(
             rawValue: preferences.string(forKey: Self.mapDisplayStyleKey) ?? ""
         ) ?? .standard
+        self.appLanguage = AppLanguage(
+            rawValue: preferences.string(forKey: Self.appLanguageKey) ?? ""
+        ) ?? .system
         self.sharesAnonymousUsageStatistics = Self.initialUsageStatisticsPreference(
             in: preferences
         )
@@ -204,6 +213,12 @@ final class AppModel {
         preferences.set(style.rawValue, forKey: Self.mapDisplayStyleKey)
     }
 
+    func setAppLanguage(_ language: AppLanguage) {
+        guard language != appLanguage else { return }
+        appLanguage = language
+        preferences.set(language.rawValue, forKey: Self.appLanguageKey)
+    }
+
     func setSharesAnonymousUsageStatistics(_ enabled: Bool) {
         sharesAnonymousUsageStatistics = enabled
         preferences.set(enabled, forKey: Self.anonymousUsageStatisticsKey)
@@ -250,6 +265,7 @@ final class AppModel {
         locationHistory = []
         appearance = .automatic
         mapDisplayStyle = .standard
+        appLanguage = .system
         sharesAnonymousUsageStatistics = false
         interruptedSession = nil
         activeSessionRecovery = nil

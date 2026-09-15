@@ -22,6 +22,7 @@ struct RoamControlApp: App {
                 }
             }
                 .environment(appModel)
+                .environment(\.locale, appModel.appLocale ?? .autoupdatingCurrent)
                 .preferredColorScheme(preferredColorScheme)
                 .animation(
                     reduceMotion ? nil : .easeInOut(duration: 0.25),

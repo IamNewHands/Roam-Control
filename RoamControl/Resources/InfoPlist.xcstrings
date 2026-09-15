@@ -1,0 +1,54 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "CFBundleDisplayName" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Roam Control"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Roam Control"
+          }
+        }
+      }
+    },
+    "NSLocalNetworkUsageDescription" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Roam Control uses the local network to securely pair with and control this iPhone through LocalDevVPN."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Roam Control 需要使用本地网络权限，以便通过 LocalDevVPN 与此 iPhone 进行安全配对并控制定位。"
+          }
+        }
+      }
+    },
+    "NSLocationWhenInUseUsageDescription" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Roam Control uses location updates to keep fixed and walking sessions running in the background, and to recenter on your real position after a session stops."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Roam Control 使用位置权限在后台保持定点与步行模拟会话运行，并在会话停止后自动重新校准回您的真实位置。"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}
